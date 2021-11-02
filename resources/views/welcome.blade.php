@@ -23,7 +23,6 @@
             </div>
             <div class="box_cam_video">
               <video id="preview"></video>
-              <button class="btn btn-dark" id="switchCam">Switch</button>
             </div>
             <div class="boc_rep_pointage ">
               <div class="loader" id="loader"></div>

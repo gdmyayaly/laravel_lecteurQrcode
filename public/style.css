@@ -22,11 +22,10 @@ body,html{
     height: 200px;
     width: 100%;
     margin-top: 10px;
-    background-color: red;
   }
   .content_pointage .box_content_pointage .box_cam_video video{
-    width: 100%;
-    height: 100%;
+    width: 280px;
+    height: 200px;
   }
   .content_pointage .box_content_pointage .boc_rep_pointage{
     height: 120px;
