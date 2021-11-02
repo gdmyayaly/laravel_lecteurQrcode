@@ -1,0 +1,47 @@
+body,html{
+    width: 100%;
+    height: 100%;  
+  }
+  .content_pointage{
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .content_pointage .box_content_pointage{
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+  }
+  .content_pointage .box_content_pointage .box_cam_video{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .content_pointage .box_content_pointage .box_cam_video video{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .content_pointage .box_content_pointage .boc_rep_pointage{
+    height: 120px;
+    width: 100%;
+  }
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid black; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-left: 30%;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
